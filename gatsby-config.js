@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    title: `Like the waves roll with the moon`,
+    author: `Bryant Khoo`,
+    description: `Bryant's personal blogging space for everything work and life.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `bryantkhoo`,
+      instagram: `bryantscrabbles`,
     },
   },
   plugins: [
@@ -63,7 +64,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/astronaut-moon-icon-vector.png`,
       },
     },
     `gatsby-plugin-offline`,
