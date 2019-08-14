@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+import { ThemeToggler } from "gatsby-plugin-dark-mode"
 
 class BlogIndex extends React.Component {
   render() {
@@ -16,6 +17,18 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Bryant Khoo" />
         <Bio />
+        <ThemeToggler>
+          {({ theme, toggleTheme }) => (
+            <label>
+              <input
+                type="checkbox"
+                onChange={e => toggleTheme(e.target.checked ? "dark" : "light")}
+                checked={theme === "dark"}
+              />{" "}
+              Dark mode
+            </label>
+          )}
+        </ThemeToggler>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (

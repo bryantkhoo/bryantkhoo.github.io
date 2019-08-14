@@ -26,6 +26,7 @@ const Bio = () => {
           author
           social {
             twitter
+            instagram
           }
         }
       }
@@ -57,8 +58,9 @@ const Bio = () => {
         <strong>Bryant</strong> is currently a Software Engineer based in
         Singapore.
         {` `}
+        <br></br>
         <a href={`https://instagram.com/${social.instagram}`}>
-          You should follow him on Instagram
+          Follow him on Instagram
         </a>
       </p>
     </div>
