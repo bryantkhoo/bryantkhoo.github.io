@@ -4,30 +4,48 @@ import Wordpress2016 from "typography-theme-wordpress-2016"
 Wordpress2016.overrideThemeStyles = () => ({
   h1: {
     color: "var(--textTitle)",
+    webkittransition: "color 2s" /* For Safari 3.0 to 6.0 */,
+    transition: "color 2s" /* For modern browsers */,
   },
   h2: {
     color: "var(--textTitle)",
+    webkittransition: "color 2s" /* For Safari 3.0 to 6.0 */,
+    transition: "color 2s" /* For modern browsers */,
   },
   h3: {
     color: "var(--textTitle)",
+    webkittransition: "color 2s" /* For Safari 3.0 to 6.0 */,
+    transition: "color 2s" /* For modern browsers */,
   },
   p: {
     color: "var(--textNormal)",
+    webkittransition: "color 2s" /* For Safari 3.0 to 6.0 */,
+    transition: "color 2s" /* For modern browsers */,
   },
   footer: {
     color: "var(--textNormal)",
+    webkittransition: "color 2s" /* For Safari 3.0 to 6.0 */,
+    transition: "color 2s" /* For modern browsers */,
   },
   header: {
     color: "var(--textNormal)",
+    webkittransition: "color 2s" /* For Safari 3.0 to 6.0 */,
+    transition: "color 2s" /* For modern browsers */,
   },
   small: {
     color: "var(--textNormal)",
+    webkittransition: "color 2s" /* For Safari 3.0 to 6.0 */,
+    transition: "color 2s" /* For modern browsers */,
   },
   label: {
     color: "var(--textNormal)",
+    webkittransition: "color 2s" /* For Safari 3.0 to 6.0 */,
+    transition: "color 2s" /* For modern browsers */,
   },
   a: {
     color: "var(--textLink)",
+    webkittransition: "color 2s" /* For Safari 3.0 to 6.0 */,
+    transition: "color 2s" /* For modern browsers */,
   },
   // gatsby-remark-autolink-headers - don't underline when hidden
   "a.anchor": {
@@ -39,6 +57,8 @@ Wordpress2016.overrideThemeStyles = () => ({
   },
   hr: {
     background: "var(--hr)",
+    webkittransition: "background-color 2s" /* For Safari 3.0 to 6.0 */,
+    transition: "background-color 2s" /* For modern browsers */,
   },
 })
 
