@@ -5,47 +5,47 @@ Wordpress2016.overrideThemeStyles = () => ({
   h1: {
     color: "var(--textTitle)",
     webkittransition: "color 2s" /* For Safari 3.0 to 6.0 */,
-    transition: "color 2s" /* For modern browsers */,
+    transition: "color 2s ease" /* For modern browsers */,
   },
   h2: {
     color: "var(--textTitle)",
     webkittransition: "color 2s" /* For Safari 3.0 to 6.0 */,
-    transition: "color 2s" /* For modern browsers */,
+    transition: "color 2s ease" /* For modern browsers */,
   },
   h3: {
     color: "var(--textTitle)",
     webkittransition: "color 2s" /* For Safari 3.0 to 6.0 */,
-    transition: "color 2s" /* For modern browsers */,
+    transition: "color 2s ease" /* For modern browsers */,
   },
   p: {
     color: "var(--textNormal)",
     webkittransition: "color 2s" /* For Safari 3.0 to 6.0 */,
-    transition: "color 2s" /* For modern browsers */,
+    transition: "color 2s ease" /* For modern browsers */,
   },
   footer: {
     color: "var(--textNormal)",
     webkittransition: "color 2s" /* For Safari 3.0 to 6.0 */,
-    transition: "color 2s" /* For modern browsers */,
+    transition: "color 2s ease" /* For modern browsers */,
   },
   header: {
     color: "var(--textNormal)",
     webkittransition: "color 2s" /* For Safari 3.0 to 6.0 */,
-    transition: "color 2s" /* For modern browsers */,
+    transition: "color 2s ease" /* For modern browsers */,
   },
   small: {
     color: "var(--textNormal)",
     webkittransition: "color 2s" /* For Safari 3.0 to 6.0 */,
-    transition: "color 2s" /* For modern browsers */,
+    transition: "color 2s ease" /* For modern browsers */,
   },
   label: {
     color: "var(--textNormal)",
     webkittransition: "color 2s" /* For Safari 3.0 to 6.0 */,
-    transition: "color 2s" /* For modern browsers */,
+    transition: "color 2s ease" /* For modern browsers */,
   },
   a: {
     color: "var(--textLink)",
     webkittransition: "color 2s" /* For Safari 3.0 to 6.0 */,
-    transition: "color 2s" /* For modern browsers */,
+    transition: "color 2s ease" /* For modern browsers */,
   },
   // gatsby-remark-autolink-headers - don't underline when hidden
   "a.anchor": {

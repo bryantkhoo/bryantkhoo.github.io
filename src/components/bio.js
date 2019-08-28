@@ -10,6 +10,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
+import { ThemeToggler } from "gatsby-plugin-dark-mode"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -58,6 +59,18 @@ const Bio = () => {
         <strong>Bryant</strong> is currently a Software Engineer based in
         Singapore.
         {` `}
+        <ThemeToggler>
+          {({ theme, toggleTheme }) => (
+            <label>
+              <input
+                type="checkbox"
+                onChange={e => toggleTheme(e.target.checked ? "dark" : "light")}
+                checked={theme === "dark"}
+              />{" "}
+              Dark
+            </label>
+          )}
+        </ThemeToggler>
         <br></br>
         <a href={`https://instagram.com/${social.instagram}`}>
           Follow him on Instagram
