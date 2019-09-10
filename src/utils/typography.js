@@ -22,6 +22,11 @@ Wordpress2016.overrideThemeStyles = () => ({
     webkittransition: "color 2s" /* For Safari 3.0 to 6.0 */,
     transition: "color 2s ease" /* For modern browsers */,
   },
+  li: {
+    color: "var(--textNormal)",
+    webkittransition: "color 2s" /* For Safari 3.0 to 6.0 */,
+    transition: "color 2s ease" /* For modern browsers */,
+  },
   footer: {
     color: "var(--textNormal)",
     webkittransition: "color 2s" /* For Safari 3.0 to 6.0 */,
