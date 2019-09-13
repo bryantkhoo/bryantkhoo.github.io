@@ -56,18 +56,18 @@ const Bio = () => {
         }}
       />
       <p>
-        <strong>Bryant</strong> is currently a Software Engineer based in
+        <strong>Bryant</strong> is a Software Engineer based in
         Singapore.
         {` `}
         <ThemeToggler>
           {({ theme, toggleTheme }) => (
-            <label>
+              <label class="toggle-switch">
               <input
                 type="checkbox"
-                onChange={e => toggleTheme(e.target.checked ? "dark" : "light")}
-                checked={theme === "dark"}
-              />{" "}
-              Dark
+                onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
+                checked={theme === 'dark'}
+              />
+              <span class="toggle-slider"></span>
             </label>
           )}
         </ThemeToggler>
