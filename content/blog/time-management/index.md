@@ -4,7 +4,7 @@ date: "2019-10-26T22:12:03.284Z"
 description: "Whilst studying part time"
 ---
 
-I'm going to penning down my thoughts today on time management!
+I'm going be penning down my thoughts today on time management today!
 
 The past 3 weeks have really been hectic, juggling work, school and my volunteering duties. At work, I was spending most of my time preparing for my move to a new team. On a daily basis, I was implementing and testing last minute requirements that were given to me, 3 weeks before my move. And I was also documenting and explaining to my stakeholders on how the application I built works.
 
