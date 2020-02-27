@@ -13,7 +13,9 @@ Hello! Writing today's blog post is a brand new experience for me. This is a tut
 > The application will allow transitions between 2 visualisations (Barcharts).
 
 > The dataset: https://www.kaggle.com/unanimad/the-oscar-award
+> 
 > The visualisation: https://bryantkhoo.github.io/oscar-vis/
+> 
 > Code for this visualisation: https://github.com/bryantkhoo/oscar-vis
 
 Pre-requisites to run the visualisation: d3 and react
