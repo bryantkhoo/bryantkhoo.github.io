@@ -4,17 +4,17 @@ date: "2020-02-26T22:12:03.284Z"
 description: "My first d3 visualisation"
 ---
 
-Hello! Writting today's blog post is a brand new experience for me. This is a tutorial on how to implement a D3 visualisation with on the Oscar Awards Dataset.
+Hello! Writing today's blog post is a brand new experience for me. This is a tutorial on how to implement a D3 visualisation with on the Oscar Awards Dataset.
 
-The application will allow transitions between 2 visualisations (Barcharts).
 
- ![The Visualisation](./oscar-vis-1.png)
 
-The dataset: https://www.kaggle.com/unanimad/the-oscar-award
+![The Visualisation](./oscar-vis-1.jpg)
 
-The visualisation: https://bryantkhoo.github.io/oscar-vis/
+> The application will allow transitions between 2 visualisations (Barcharts).
 
-Code for this visualisation: https://github.com/bryantkhoo/oscar-vis
+> The dataset: https://www.kaggle.com/unanimad/the-oscar-award
+> The visualisation: https://bryantkhoo.github.io/oscar-vis/
+> Code for this visualisation: https://github.com/bryantkhoo/oscar-vis
 
 Pre-requisites to run the visualisation: d3 and react
 
@@ -246,7 +246,7 @@ We do the following to generate a particular vis.
 4. "mousemove", "mouseover" and "mouseout" events are then declared for the relevant rectangles to create our tooltips which hover over the barcharts when you mouse over them.
 5. Lastly, we generate the keys and labels needed for the legend in the visualisation
 
-This function is repeated for both topics 1 and 2.
+The above steps are done for visualisations for topic 1 and topic 2.
 ```javascript{numberLines: 88}
  update(topic) {
     const vis = this;
@@ -619,6 +619,4 @@ getDetailsInTable(dataset, name) {
   }
 ```
 
-The final visualisation that we see will be the following!
-
-![Final Visualisation](./oscar-vis-3.png)
+![Final Visualisation](./oscar-vis-3.jpg)
