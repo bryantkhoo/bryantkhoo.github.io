@@ -2,6 +2,7 @@
 title: Oscar Awards Dataset Visualisation
 date: "2020-02-26T22:12:03.284Z"
 description: "My first d3 visualisation"
+tags: ["tutorial"]
 ---
 
 Hello! Writing today's blog post is a brand new experience for me. This is a step-by-step tutorial on how to implement a D3 visualisation based on the Oscar Awards Dataset. The dataset comprises of ~ 10,400 data points, comprising of Oscar awards data from 1927 to 2020.

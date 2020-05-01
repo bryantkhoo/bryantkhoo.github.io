@@ -2,6 +2,7 @@
 title: Time Management
 date: "2019-10-26T22:12:03.284Z"
 description: "Whilst studying part time"
+tags: ["blog"]
 ---
 
 I'm going be penning down my thoughts today on time management today!

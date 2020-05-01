@@ -2,6 +2,7 @@
 title: Firsts
 date: "2019-09-09T22:12:03.284Z"
 description: "Everyone is just pretending not to be afraid."
+tags: ["blog"]
 ---
 
 This blog post is going to be a brief recount of recent experiences and events!

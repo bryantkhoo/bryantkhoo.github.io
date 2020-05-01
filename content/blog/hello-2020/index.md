@@ -2,6 +2,7 @@
 title: Hello 2020
 date: "2020-01-23T22:12:03.284Z"
 description: "Things happen for us to grow"
+tags: ["blog"]
 ---
 
 Hello! Whelp, towards the end of 2019 there were so many things happening at the same time, that I totally neglected the blog.
