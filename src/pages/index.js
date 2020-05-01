@@ -28,6 +28,7 @@ class BlogIndex extends React.Component {
         <Bio />
         <button onClick={()=>this.selectCategory('blog')}>Blog</button>
         <button onClick={()=>this.selectCategory('coding')}>Coding</button>
+        <button onClick={()=>this.selectCategory('tutorial')}>Tutorial</button>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           if (node.frontmatter.tags.includes(this.state.category)){
