@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+import "purecss/build/pure.css"
 
 class BlogIndex extends React.Component {
   constructor(props) {
@@ -26,9 +27,11 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Bryant Khoo" />
         <Bio />
-        <button onClick={()=>this.selectCategory('blog')}>Blog</button>
-        <button onClick={()=>this.selectCategory('coding')}>Coding</button>
-        <button onClick={()=>this.selectCategory('tutorial')}>Tutorial</button>
+        <div class="pure-button-group" role="group" aria-label="...">
+          <button class="pure-button" onClick={()=>this.selectCategory('blog')}>Blog</button>
+          <button class="pure-button" onClick={()=>this.selectCategory('coding')}>Coding</button>
+          <button class="pure-button" onClick={()=>this.selectCategory('tutorial')}>Tutorial</button>
+        </div>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           if (node.frontmatter.tags.includes(this.state.category)){

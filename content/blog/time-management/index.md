@@ -5,7 +5,7 @@ description: "Whilst studying part time"
 tags: ["blog"]
 ---
 
-I'm going be penning down my thoughts today on time management today!
+I'm going to be penning down my thoughts today on time management today!
 
 The past 3 weeks have really been hectic, juggling work, school and my volunteering duties. At work, I was spending most of my time preparing for my move to a new team. On a daily basis, I was implementing and testing last minute requirements that were given to me, 3 weeks before my move. And I was also documenting and explaining to my stakeholders on how the application I built works.
 

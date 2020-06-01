@@ -13,10 +13,9 @@ Since my last project submission for the semester, I have started working on Lee
 
 Some of the things that I have started working on over the past week and stuff that I intend to kick start are the following:
 
-* Work on Leetcode questions
-* PRAMP
-* Take part in a Kaggle Competition
-* Deploy a ML model
+* LC!!
+* Develop a healthy running routine
+* Deploying an ML model with Docker
 
 Really want to stay motivated for the rest the circuit breaker!
 
